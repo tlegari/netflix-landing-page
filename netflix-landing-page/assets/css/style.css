@@ -1,0 +1,229 @@
+  /*importing Roboto font*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+   box-sizing: border-box;
+   padding: 0px;
+   margin: 0px;
+   font-family: "Roboto", sans-serif;
+}
+ 
+body{
+   background-color: black;
+}
+
+.banner-wrapper{
+   background: url(https://assets.nflxext.com/ffe/siteui/vlv3/20bf1f4d-1c73-48fd-8689-310d6dd80efc/0b3d0e77-3be2-4104-b1da-11e007b5528e/ZA-en-20240812-POP_SIGNUP_TWO_WEEKS-perspective_WEB_055979d5-8aaf-4914-bb3f-c63ee737d165_small.jpg);
+   height: 70vh;
+   border-bottom: 5px solid #2d2f34 ;
+   
+}
+
+.overlay{
+   background-color: rgba(0,0,0,0.5);
+   height: 70vh;
+
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 350px;
+   padding: 30px 25px;
+}
+
+nav >a{
+   color: #fff ;
+   background-color:rgb(229, 9, 20) ;
+   padding: 8px 13px;
+   text-decoration: none;
+   border-radius: 5px;
+   font-size: 13px;
+   
+}
+
+.logo-svg{
+   width: 150px;
+
+}
+
+.banner-text{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #fff;
+   margin-top: 200px;  
+}
+
+.banner-text > h1{
+   font-size: 48px;
+   font-weight: 900;
+}
+
+.banner-text > p{
+   margin: 20 0;
+   font-size: 24px;
+}
+
+.banner-text > h3{
+   margin: 15px;
+   font-weight: 400;
+}
+
+.get-started-section{
+   margin-top: 10px;
+}
+
+.get-started-section > form {
+   width: 580px;
+   display: flex;
+   gap: 10px;
+}
+
+.get-started-section > form > input {
+  width: 350px;
+  height: 56px;
+  padding: 10px 16px 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.get-started-section > form > button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 4px;
+    width: 210px;
+    height: 56px;
+   background-color: red;
+   border: none;  
+}
+
+.get-started-section > form > button:hover{
+   background-color: #cd0912;
+   cursor: pointer;
+}
+
+button > .material-symbols-outlined{
+   font-size: 36px;
+   
+}
+
+/*start of middle section with video tv image*/
+
+.info-container{
+   display: flex;
+   justify-content: center;
+   padding: 50px 0;
+   border-bottom: 5px solid rgb(26, 22, 22);
+}
+
+.text-container{
+   color: #fff;
+   display: flex;
+   align-items: center;
+}
+
+.text > h2{
+   font-size: 48px;
+}
+
+.text > p{
+   font-size: 24px;
+}
+
+.tv-container{
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.tv-container img{
+   z-index: 1;
+}
+
+.tv-container video{
+   position: absolute;
+   z-index: 0;
+   margin: 0 0 9px 0;
+}
+
+/*start of footer styling*/
+
+.footer{
+   color: rgba(255, 255, 255, 0.7);
+   height: 600px;
+   padding: 0 40px 96px;
+   margin: 72px 354px;
+   font-size: 15px;
+   font-weight: 400;
+}
+
+.footer-top > p{
+   margin: 0 0 50px 0;
+}
+
+.footer-top > p > a {
+   color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-links{
+  columns: 4;
+}
+
+.footer-links > ul{
+   text-decoration: none;
+   margin: 10px 0;
+  
+}
+
+.footer-links li:hover{
+   cursor: pointer;
+   text-decoration: underline;
+}
+
+.footer-links li{
+   list-style-type: none;
+   margin: 15px 0;
+}
+
+
+.languages{
+   display: flex;
+   align-items: center;
+   margin-top: 36px;
+   width: 112px;
+   border: 1px solid rgb(71, 70, 70);
+   border-radius: 4px;
+   padding-left: 15px;
+  
+}
+
+#languages{
+   height: 32px;
+   width: 120px;
+   background-color: rgba(0, 0, 0, 0.3);
+   color: #fff;
+   border: none;
+}
+
+.languages .material-symbols-outlined{
+   font-size: 14px;
+   
+}
+
+
+.copy-write{
+   margin-top: 36px;
+   text-align: left;
+
+}
+
+
